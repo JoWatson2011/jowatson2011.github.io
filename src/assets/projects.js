@@ -1,8 +1,23 @@
 const projects = [
   {
+    Title: 'Trove Marketplace',
+    imageLocation: 'trove-marketplace.png',
+    description:
+      '',
+    frontEndURL: 'https://github.com/nc-jo-watson/trove-marketplace',
+    backEndURL: null,
+    hostedURL: 'https://jowatson-portfolio-trove-marketplace.netlify.app',
+    techStackIcons: [
+      { name: 'vi-file-type-js-official', label: 'JavaScript' },
+      { name: 'vi-file-type-typescript-official', label: 'TypeScript' },
+      { name: 'co-next-js', label: 'NextJs' },
+      { name: 'vi-file-type-python', label: 'Python' },
+      { name: 'vi-file-type-django', label: 'django' }
+    ]
+  },
+  {
     Title: 'Project Generator',
-    imageLocation:
-      'https://cdn.shopify.com/s/files/1/1061/1924/products/Robot_Emoji_Icon_7070a254-26f7-4a54-8131-560e38e34c2e_grande.png?v=1571606114',
+    imageLocation: 'project-generator.png',
     description:
       'A tool to set up an npm project with a full directory structure and git initialised, all with one command in the terminal',
     frontEndURL: null,

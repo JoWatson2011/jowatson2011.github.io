@@ -7,6 +7,7 @@ import { OhVueIcon, addIcons } from 'oh-vue-icons'
 import {
   CoGithub,
   BiLinkedin,
+  ViFileTypeDjango,
   ViFileTypeJsOfficial,
   ViFileTypePython,
   ViFileTypeRproj,
@@ -14,6 +15,7 @@ import {
   ViFileTypeReactjs,
   ViFileTypeHtml,
   ViFileTypeTailwind,
+  ViFileTypeTypescriptOfficial,
   SiExpress,
   SiGnubash,
   CoSocketIo,
@@ -23,13 +25,15 @@ import {
   BiGlobe,
   RiArrowUpSLine,
   RiTestTubeLine,
-  LaUniversitySolid
+  LaUniversitySolid,
+  CoNextJs
 } from 'oh-vue-icons/icons'
 import './assets/tailwind.css'
 
 addIcons(
   CoGithub,
   BiLinkedin,
+  ViFileTypeDjango,
   ViFileTypeJsOfficial,
   ViFileTypePython,
   ViFileTypeRproj,
@@ -37,6 +41,7 @@ addIcons(
   ViFileTypeReactjs,
   ViFileTypeHtml,
   ViFileTypeTailwind,
+  ViFileTypeTypescriptOfficial,
   SiExpress,
   SiGnubash,
   CoSocketIo,
@@ -46,7 +51,8 @@ addIcons(
   BiGlobe,
   RiArrowUpSLine,
   RiTestTubeLine,
-  LaUniversitySolid
+  LaUniversitySolid,
+  CoNextJs
 )
 
 const app = createApp(App)
