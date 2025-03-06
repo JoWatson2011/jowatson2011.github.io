@@ -2,10 +2,9 @@ const projects = [
   {
     Title: 'Trove Marketplace',
     imageLocation: 'trove-marketplace.png',
-    description:
-      '',
-    frontEndURL: 'https://github.com/nc-jo-watson/trove-marketplace',
-    backEndURL: null,
+    description: 'A vinted/depop inspired ecommerce platform',
+    frontEndURL: null,
+    backEndURL: 'https://github.com/nc-jo-watson/trove-marketplace',
     hostedURL: 'https://jowatson-portfolio-trove-marketplace.netlify.app',
     techStackIcons: [
       { name: 'vi-file-type-js-official', label: 'JavaScript' },
