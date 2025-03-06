@@ -1,5 +1,6 @@
 <script setup>
 import { BiArchiveFill, IoDocumentText, BiEnvelopeOpenFill } from 'oh-vue-icons/icons'
+import NavButton from './NavButton.vue'
 </script>
 
 <script>
@@ -31,26 +32,8 @@ export default {
 
 <template>
   <nav :class="navStyle" data-cy="nav-list">
-    <RouterLink
-      to="/projects"
-      class="hover:text-light-midBlue text-lg underline underline-offset-4"
-      activeClass="text-light-darkBlue underline underline-offset-4"
-      data-cy="projects-link"
-      ><v-icon name="bi-archive-fill" scale="1.25" :class="iconStyle" />Projects</RouterLink
-    >
-    <RouterLink
-      to="/experience"
-      class="hover:text-light-midBlue text-lg underline underline-offset-4"
-      activeClass="text-light-darkBlue underline underline-offset-4"
-      data-cy="experience-link"
-      ><v-icon name="io-document-text" scale="1.25" :class="iconStyle" />Experience</RouterLink
-    >
-    <RouterLink
-      to="/contact"
-      class="hover:text-light-midBlue text-lg underline underline-offset-4"
-      activeClass="text-light-darkBlue underline underline-offset-4"
-      data-cy="contact-link"
-      ><v-icon name="bi-envelope-open-fill" scale="1.25" :class="iconStyle" />Contact</RouterLink
-    >
+    <NavButton routeTo="projects" />
+    <NavButton routeTo="experience" />
+    <NavButton routeTo="contact" />
   </nav>
 </template>
