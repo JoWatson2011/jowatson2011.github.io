@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       projects: projects,
-      selected: 'NC news',
+      selected: 'Trove Marketplace',
       projectDetails: {}
     }
   },
